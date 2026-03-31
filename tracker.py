@@ -121,7 +121,7 @@ Examples:
   tracker.py delete 2"""
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     if len(sys.argv) < 2:
         print(USAGE)
         sys.exit(1)
